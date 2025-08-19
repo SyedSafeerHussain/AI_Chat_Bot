@@ -1,95 +1,57 @@
-# 🤖 AI-Powered Chatbot with LLaMA 3 & FastAPI
+# 🤖 AI Chatbot – Powered by Llama 3 & FastAPI  
 
-An intelligent, real-world chatbot built using **Ollama’s LLaMA 3 model** integrated with **FastAPI** and a modern web interface.  
-This project demonstrates how to deploy, interact, and extend an **AI-driven conversational system** with tools integration.
+## 📸 Demo Preview  
+![Demo Preview](images/image.png)  
 
----
+## 📌 Project Overview  
+This project is an **AI-powered chatbot** built using **Ollama’s Llama 3** model integrated with **FastAPI** for a high-performance backend and a clean, interactive **web-based user interface**. It is designed to provide seamless real-world conversational AI functionality with extendable tools and integrations.  
 
-## 🚀 Features
-- **LLaMA 3 Integration** via [Ollama](https://ollama.ai/)  
-- **FastAPI Backend** for serving chatbot responses  
-- **Interactive Web UI** for smooth conversations  
-- **Extensible Tools Support** (can connect with APIs or automation scripts)  
-- **Lightweight & Fast** – optimized for local or cloud deployment  
-- **Open Source & Customizable**
+## 🚀 Features  
+- 🧠 **AI Chatbot** – Powered by Llama 3 (via Ollama).  
+- ⚡ **FastAPI Backend** – High-performance API for handling chat requests.  
+- 💻 **Modern Web Interface** – Simple and intuitive UI for real-time interaction.  
+- 🔌 **Extendable Tools** – Add custom tools and APIs for advanced chatbot capabilities.  
+- 🛠️ **Open Source** – Easy to customize and integrate with other systems.  
 
----
+## 🗂️ Tech Stack  
+- **Backend:** FastAPI  
+- **AI Model:** Ollama Llama 3  
+- **Frontend:** HTML, CSS, JS (lightweight web interface)  
+- **Others:** REST API, Python  
 
-## 📂 Project Structure
+## 📦 Installation  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-username/ai-chatbot.git
+cd ai-chatbot
 ```
-ai-chatbot/
-├── app/                  # FastAPI app
-│   ├── main.py           # API routes
-│   ├── utils/            # Helper functions
-│   └── tools/            # Extendable tools integration
-├── frontend/             # Web UI (HTML/JS/CSS)
-├── requirements.txt      # Python dependencies
-└── README.md             # You are here
+
+### 2️⃣ Install Dependencies  
+```bash
+pip install -r requirements.txt
 ```
 
----
+### 3️⃣ Run FastAPI Backend  
+```bash
+uvicorn main:app --reload
+```
 
-## ⚡ Installation & Setup
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/yourusername/ai-chatbot.git
-   cd ai-chatbot
-   ```
+### 4️⃣ Open Web Interface  
+Visit:  
+```
+http://127.0.0.1:8000
+```
 
-2. **Install dependencies**  
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 🔧 Configuration  
+- Make sure **Ollama** is installed and running locally.  
+- Update model settings inside `config.py` if needed.  
 
-3. **Run Ollama with LLaMA 3**  
-   ```bash
-   ollama run llama3
-   ```
+## 📸 Screenshots  
+(Add more screenshots here if needed)  
 
-4. **Start FastAPI server**  
-   ```bash
-   uvicorn app.main:app --reload
-   ```
+## 🤝 Contributing  
+Contributions are welcome! Feel free to fork, open issues, and submit PRs.  
 
-5. **Open in browser**  
-   ```
-   http://127.0.0.1:8000
-   ```
-
----
-
-## 🛠 Requirements
-- Python 3.9+  
-- [Ollama](https://ollama.ai/) installed with LLaMA 3 model  
-- FastAPI & Uvicorn  
-
----
-
-## 📸 Screenshots
-*(Add your screenshots here for better presentation)*
-
----
-
-## 🎯 Use Cases
-- AI-powered **customer support**  
-- **Personal assistant** chatbot  
-- **Educational Q&A** bot  
-- **Business automation assistant**
-
----
-
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome!  
-Feel free to fork and submit a PR.
-
----
-
-## 📜 License
-This project is licensed under the **MIT License** – free to use and modify.
-
----
-
-## 💡 Author
-**Safeer Hussain**  
-🚀 Student | AI & Automation Enthusiast  
-
+## 📜 License  
+This project is licensed under the **MIT License** – free to use, modify, and distribute.  
